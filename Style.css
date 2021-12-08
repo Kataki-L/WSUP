@@ -70,9 +70,9 @@ a:active {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(230, 236, 250);
+  box-shadow: 0px 0px 10px 1px rgba(223, 232, 255, 0.568);
   color: black;
-  box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.527);
   transition: 0.9s;
 }
 
@@ -82,11 +82,10 @@ a:active {
   color: white;
 }
 .topnav a.active:hover {
-  background-color: #ddd;
-  box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.527);
+  background-color: #9eb9ff;
+  box-shadow: 0px 0px 10px 1px #9ebaff70;
   color: #000;
 }
-
 .footer {
   background-color: #6e778f;
   text-align: center;
