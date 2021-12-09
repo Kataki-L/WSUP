@@ -11,7 +11,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <title>WSUP | main</title>
-    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <link rel="stylesheet" type="text/css" href="ContactStyle.css" />
     <link rel="icon" href="icon.png" />
   </head>
   <body>
@@ -20,9 +20,9 @@
       <p1>Lite and simple, as you wished.</p1>
     </div>
     <div class="topnav">
-      <a class="active" href="index.html">Home</a>
+      <a href="index.html">Home</a>
       <a href="#news">News</a>
-      <a href="Contact.html">Contact</a>
+      <a class="active" href="Contact.html">Contact</a>
       <a href="About.html">About</a>
     </div>
     <div class="login">
@@ -39,14 +39,32 @@
       </ul>
     </div>
     <div class="content">
-      <img src="" alt="random" /> <br /><br />
-      <h1>This should be the heading</h1>
-      <br />
-      <p1>This is a paragraph to explain the picture</p1><br />
-      <p2>This is just the second paragraph to use if needed</p2><br />
-      <p5 style="color: white; font-size: smaller"
-        >Ali "Kataki" Esmaeili , 2 Dec 2021</p5
-      >
+      <h1>Contact Us</h1>
+      <form>
+        <label>Full Name</label><br />
+        <input
+          type="text"
+          name="Name"
+          spellcheck="true"
+          placeholder="Your Name"
+          required
+        /><br />
+        <label>E-Mail</label> <br />
+        <input
+          type="email"
+          name="Email"
+          placeholder="Ex@gmail.com"
+          required
+        /><br />
+        <label>Subject</label><br />
+        <textarea
+          placeholder="Write something here..."
+          required
+          style="height: 90px; width: 450px"
+        ></textarea
+        ><br />
+        <input type="submit" value="Submit" />
+      </form>
     </div>
     <div class="footer">
       <p>

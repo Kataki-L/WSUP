@@ -88,24 +88,63 @@ a:active {
 }
 .content {
   line-height: 200%;
+  width: 500px;
+  height: 450px;
   position: relative;
-  top: 70px;
+  top: 20px;
   left: 30%;
   border: none;
   border-radius: 4px;
-  padding: 30px;
   display: inline-block;
   background-color: rgb(110, 119, 143);
   box-shadow: 0px 15px 10px 1px rgba(0, 0, 0, 0.363);
 }
-.content p1:hover,
-.content p2:hover,
+.content h1 {
+  text-align: center;
+  padding: 20px;
+}
 .content h1:hover {
   cursor: pointer;
   color: white;
   text-shadow: 2px 2px 4px #000000;
   transition: 0.9s;
 }
+form {
+  text-align: center;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 6px 20px 16px 20px;
+  resize: vertical;
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+textarea:hover {
+  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+  transition: 0.5s;
+}
+input[type="submit"] {
+  letter-spacing: 2px;
+  border: 1px solid white;
+  background: none;
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+  display: inline-block;
+  color: black;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.527);
+  transition: 0.9s;
+}
+
 .sidenav {
   float: right;
   padding: 10px;
