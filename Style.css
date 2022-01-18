@@ -39,7 +39,7 @@ a:active {
 .login {
   letter-spacing: 2px;
   position: absolute;
-  right: 110px;
+  right: 50px;
   top: 10px;
   display: inline-block;
   border: 1px solid white;
@@ -47,6 +47,20 @@ a:active {
   padding: 5px 5px 5px 5px;
 }
 .login:hover {
+  background-color: white;
+  box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.527);
+  transition: 0.9s;
+}
+.Register {
+  position: absolute;
+  right: 150px;
+  top: 10px;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 5px 5px 5px 2px;
+}
+.Register:hover {
   background-color: white;
   box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.527);
   transition: 0.9s;
